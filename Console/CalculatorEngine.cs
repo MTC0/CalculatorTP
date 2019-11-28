@@ -18,6 +18,12 @@ namespace Console
         {
             return a+b;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public int Sub(int a, int b)
         {
             return a-b;
