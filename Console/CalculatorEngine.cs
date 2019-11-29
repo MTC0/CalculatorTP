@@ -24,7 +24,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="nbSecond"></param>
         /// <returns></returns>
-        public virtual int soustraire(int nbPremier, int nbSecond)
+        public virtual int Soustraire(int nbPremier, int nbSecond)
         {
             return nbPremier - nbSecond;
         }
