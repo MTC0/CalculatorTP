@@ -12,33 +12,33 @@ namespace Console
         /// Fonction to Addition two values.
         /// </summary>
         /// <param name="a"></param>
-        /// <param name="b"></param>
+        /// <param name="nbSecond"></param>
         /// <returns></returns>
-        public virtual int Addition(int a, int b)
+        public virtual int Addition(int nbPremier, int nbSecond)
         {
-            return a+b;
+            return nbPremier + nbSecond;
         }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="a"></param>
-        /// <param name="b"></param>
+        /// <param name="nbSecond"></param>
         /// <returns></returns>
-        public virtual int soustraire(int a, int b)
+        public virtual int soustraire(int nbPremier, int nbSecond)
         {
-            return a-b;
+            return nbPremier - nbSecond;
         }
-        public virtual int Multiplier(int a, int b)
+        public virtual int Multiplier(int nbPremier, int nbSecond)
         {
-            return a*b;
+            return nbPremier * nbSecond;
         }
-        public virtual int Division(int a, int b)
+        public virtual int Division(int nbPremier, int nbSecond)
         {
             int res;
 
-            if(b > 0)
+            if(nbSecond > 0)
             {
-                res = a / b;
+                res = nbPremier / nbSecond;
             }
             else
             {
