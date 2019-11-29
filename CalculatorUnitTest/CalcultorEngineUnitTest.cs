@@ -24,7 +24,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 2, exp = -1;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.soustraire(a, b);
+            int actual = Calc.Soustraire(a, b);
 
             Assert.AreEqual(exp, actual);
         }
