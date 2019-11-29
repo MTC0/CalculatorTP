@@ -13,7 +13,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 2, exp = 3;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.Add(a,b);
+            int actual = Calc.Addition(a,b);
 
             Assert.AreEqual(exp, actual);
         }
@@ -24,7 +24,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 2, exp = -1;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.Sub(a, b);
+            int actual = Calc.soustraire(a, b);
 
             Assert.AreEqual(exp, actual);
         }
@@ -35,7 +35,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 2, exp = 2;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.Mul(a, b);
+            int actual = Calc.Multiplier(a, b);
 
             Assert.AreEqual(exp, actual);
         }
@@ -46,7 +46,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 1, exp = 1;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.Div(a, b);
+            int actual = Calc.Division (a, b);
 
             Assert.AreEqual(exp, actual);
         }
@@ -57,7 +57,7 @@ namespace CalculatorUnitTest
             int a = 1, b = 0, exp = Int32.MinValue;
 
             CalculatorEngine Calc = new CalculatorEngine();
-            int actual = Calc.Div(a, b);
+            int actual = Calc.Division(a, b);
 
             Assert.AreEqual(exp, actual);
         }

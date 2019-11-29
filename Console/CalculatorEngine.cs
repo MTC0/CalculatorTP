@@ -14,7 +14,7 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Add(int a, int b)
+        public virtual int Addition(int a, int b)
         {
             return a+b;
         }
@@ -24,15 +24,15 @@ namespace Console
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Sub(int a, int b)
+        public virtual int soustraire(int a, int b)
         {
             return a-b;
         }
-        public int Mul(int a, int b)
+        public virtual int Multiplier(int a, int b)
         {
             return a*b;
         }
-        public int Div(int a, int b)
+        public virtual int Division(int a, int b)
         {
             int res;
 
